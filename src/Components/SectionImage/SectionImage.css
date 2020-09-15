@@ -1,0 +1,26 @@
+.SectionImage {
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  padding: 50px;
+}
+
+.SectionImage .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.SectionImage .logo {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -8%;
+}
+
+.SectionImage .logo .App-logo {
+  height: 120px;
+  pointer-events: none;
+}
+/*# sourceMappingURL=SectionImage.css.map */

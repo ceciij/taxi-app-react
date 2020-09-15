@@ -1,0 +1,12 @@
+.Footer{
+    padding: 30px 30px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .icon{
+        margin: 0px 10px;
+        cursor: pointer;
+    }
+}

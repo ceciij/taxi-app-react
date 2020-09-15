@@ -1,0 +1,20 @@
+.Footer {
+  padding: 30px 30px;
+  background-color: #1d1d1d;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer .icon {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Footer.css.map */
