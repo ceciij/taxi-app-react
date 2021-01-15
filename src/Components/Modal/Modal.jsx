@@ -43,7 +43,7 @@ function SimpleModal(props) {
 
     React.useEffect(
         ()=> {
-            if(isOpen){
+            if(props.isOpen){
                 setId(setInterval( ()=>{
                     console.log('dentro de timer')
                 } , 3000 ))
