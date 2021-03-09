@@ -9,4 +9,15 @@
         margin: 0px 10px;
         cursor: pointer;
     }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    a:hover 
+    {
+         color:#bdbdbd; 
+         text-decoration:none; 
+         cursor:pointer;  
+    }
 }

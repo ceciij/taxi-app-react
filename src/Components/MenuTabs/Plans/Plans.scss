@@ -1,0 +1,49 @@
+@import '../../../Assets/styles/mixin';
+@import '../../../Assets/styles/variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container-afiliacion{
+    background-color: $light-gray;
+    @include flex;
+    
+    .img-planes{
+        width: 50%;
+        min-width: 470px;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .descripcion-planes{
+        width: 50%;
+        display: inline-block;
+        padding: 30px;
+        h2{
+            margin-bottom: 20px;
+        }
+        input{
+            @include botones;
+            margin-top: 50px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            background-color: black;
+            color: white;
+        }
+    }
+    
+}
+
+.container-planes{
+    text-align: center;
+    h1{
+        margin-top: 30px;
+    }
+    .planes{
+        @include flex(space-evenly);
+    }
+}

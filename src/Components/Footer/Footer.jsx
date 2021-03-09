@@ -14,8 +14,9 @@ function Footer () {
                 Contacto: 333666888
             </div>
             <div className="icons">
-                <TwitterIcon className = "icon" style={{ fontSize: 40 }}/>
-                <FacebookIcon className = "icon" style={{ fontSize: 40 }}/>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><TwitterIcon className = "icon" style={{ fontSize: 40 }}/></a> 
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FacebookIcon className = "icon" style={{ fontSize: 40 }}/></a> 
+                
             </div>
         </div>
     )

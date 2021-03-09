@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.item {
+  min-width: 200px;
+  max-width: 200px;
+  background-color: #cccccc;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.item .titulo-plan {
+  padding: 0px 20px;
+}
+
+.item .titulo-plan h1 {
+  display: inline-block;
+  color: white;
+}
+
+.item .titulo-plan .numero {
+  background-color: #f9cf29;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 2em;
+  font-weight: bolder;
+  color: white;
+  display: inline-block;
+}
+
+.item .descripcion-individual {
+  padding: 20px;
+  text-align: center;
+}
+
+.item .descripcion-individual p {
+  font-size: .7em;
+}
+
+.item .contratar {
+  padding: 20px;
+  width: 100%;
+  background-color: #e4e4e4;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.item .contratar input {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 35px;
+  border-radius: 50px;
+  color: #000000;
+  background-color: white;
+  font-weight: normal;
+  font-size: 20px;
+  border-style: none;
+  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+          box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  font-size: 1em;
+}
+/*# sourceMappingURL=IndividualPlans.css.map */

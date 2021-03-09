@@ -1,9 +1,11 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import image from '../../Assets/taxi-background.jpg';
+import image from '../../Assets/images/taxi-background.jpg';
 import './SectionImage.css'
 import Button from '../Button/Button';
-import logo from '../../Assets/logo.svg';
+import logo from '../../Assets/images/logo.svg';
+import SimpleModal from '../Modal/Modal';
+import PropTypes from 'prop-types';
 
 
 
@@ -17,10 +19,12 @@ const useStyles = makeStyles ({
 
 
 
-function SectionImage({ image }) {
+function SectionImage({ setUserLogged }) {
+
+    const [ isOpen, setIsOpen ] = React.useState(false)
 
     const onClickHandler = (e, id)=> {
-        console.log('le picaste, aqui va la logica')
+        setUserLogged(true)
     }
 
     const classes = useStyles();
@@ -38,9 +42,13 @@ function SectionImage({ image }) {
                     value = 'Registrarme'
                     color = 'black'
                     backgroundColor = 'white' 
-                    click = { onClickHandler }
+                    click = { () => setIsOpen(true)}
                 />
             </div>
+            <SimpleModal
+                isOpen = { isOpen }
+                setIsOpen = { setIsOpen }
+            />
             <div className="logo">
                 <img src={logo} className="App-logo" alt="logo" />
             </div>
@@ -48,8 +56,9 @@ function SectionImage({ image }) {
     )
 }
 
-
-
+SectionImage.propTypes = {
+    setUserLogged: PropTypes.func.isRequired,
+  };
 
 export default SectionImage;
 

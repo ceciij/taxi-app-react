@@ -1,0 +1,20 @@
+@import '../../../../Assets/styles/mixin';
+@import '../../../../Assets/styles/variables';
+
+section{
+    padding: 20px 100px;
+    .items{
+        @include flex();
+        .map-image{
+            margin-right: 50px;
+        }
+        form{
+            width: 50%;
+        }
+        .form {
+            padding: 0px 50px;
+            @include flex(space-between);
+            flex-wrap: wrap;
+        }
+    }
+}

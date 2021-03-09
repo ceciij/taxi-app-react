@@ -17,4 +17,15 @@
   margin: 0px 10px;
   cursor: pointer;
 }
+
+.Footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+  cursor: pointer;
+}
 /*# sourceMappingURL=Footer.css.map */
