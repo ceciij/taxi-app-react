@@ -4,7 +4,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import EmailIcon from '@material-ui/icons/Email';
 import {
-    BrowserRouter as Router,
     Link
   } from "react-router-dom";
 import logo from '../../Assets/images/logo.svg'
@@ -26,14 +25,12 @@ function Header() {
                 </div>
                 <div className="menu">
                     <ul className="menu-ul">
-                        <Router>
                             <Link className="menu-item" to="/Reserve">Inicio</Link>
                             <Link className="menu-item" to="/Reserve">Tarifas</Link>
                             <Link className="menu-item" to="/Plans">Planes</Link>
                             <Link className="menu-item" to="/Drivers">Conductores</Link>
                             <Link className="menu-item" to="/MyTrips">Mis viajes</Link>
                             <Link className="menu-item" to="/LostFound">Lost/Found</Link>
-                        </Router>
                     </ul>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
-import Form from '../Form/Form';
+import Form from '../MenuTabs/Home/Form/Form';
 import PropTypes from 'prop-types';
 
 

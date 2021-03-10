@@ -1,6 +1,7 @@
 import React from 'react'
 import Step from '../Step/Step';
 import { makeStyles } from '@material-ui/core/styles';
+import './Steps.css'
 
 
 const useStyles = makeStyles({
@@ -32,7 +33,7 @@ function Steps(){
     ]
 
     return(
-        <div className = { classes.root}>
+        <div className = {`${classes.root} section`}>
             {pasos.map( (paso => 
                 <Step
                     key = {paso.number} 

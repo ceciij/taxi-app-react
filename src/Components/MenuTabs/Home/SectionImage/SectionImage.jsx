@@ -6,6 +6,7 @@ import Button from '../../../Button/Button';
 import logo from '../../../../Assets/images/logo.svg';
 import SimpleModal from '../../../Modal/Modal';
 import PropTypes from 'prop-types';
+import { useHistory } from 'react-router-dom';
 
 
 
@@ -20,11 +21,13 @@ const useStyles = makeStyles ({
 
 
 function SectionImage({ setUserLogged }) {
+    let history = useHistory();
 
     const [ isOpen, setIsOpen ] = React.useState(false)
 
     const onClickHandler = (e, id)=> {
         setUserLogged(true)
+        history.push('/Reserve')
     }
 
     const classes = useStyles();
