@@ -1,7 +1,7 @@
 import React from 'react';
-import Section from '../../Section/Section';
-import SectionImage from '../../SectionImage/SectionImage';
-import Steps from '../../Steps/Steps';
+import Section from './Section/Section';
+import SectionImage from './SectionImage/SectionImage';
+import Steps from './Steps/Steps';
 import Container from '@material-ui/core/Container';
 import './Home.css'
 import Cards from '../../Cards/Cards';

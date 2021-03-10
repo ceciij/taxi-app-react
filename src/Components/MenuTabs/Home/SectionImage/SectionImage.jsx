@@ -1,10 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import image from '../../Assets/images/taxi-background.jpg';
+import image from '../../../../Assets/images/taxi-background.jpg';
 import './SectionImage.css'
-import Button from '../Button/Button';
-import logo from '../../Assets/images/logo.svg';
-import SimpleModal from '../Modal/Modal';
+import Button from '../../../Button/Button';
+import logo from '../../../../Assets/images/logo.svg';
+import SimpleModal from '../../../Modal/Modal';
 import PropTypes from 'prop-types';
 
 
