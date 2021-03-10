@@ -1,43 +1,37 @@
 import React from 'react';
-import Button from '../../../Button/Button';
-import Cards from '../../../Cards/Cards';
+import Methods from './Methods/Methods';
 import './PayMethods.css';
 
 
 const payMethods=[
     {   
         "id": 1,
-        "review": "Efectivo",
-        "icon": "imgEfectivo"
+        "name": "Efectivo",
     },
     {   
         "id": 2,
         "name": "Tarjeta",
-        "icon": "imgtarjeta"
     },
     {   
         "id": 3,
         "name": "Plan",
-        "icon": "imgPlan"
     }
 ]
 
 function PayMethods(){
    
     return(
-        <section className="pay-methods">
-            { payMethods.map(methods => 
-                <Cards
-                    content = {PayMethods}
-                />
-            )
-            }
-            <Button
-                value= "Pagar"
-                color= "white"
-                backgroundColor="green"
-                click= { ()=>{} }
-            />
+        <section className="pay-methods" id="pay-methods">
+            <div className="methods">
+
+                { payMethods.map(m => 
+                    <Methods
+                        name= { m.name }
+                        key={ m.id }
+                    />
+                )
+                }
+            </div>
         </section>
     )
 }

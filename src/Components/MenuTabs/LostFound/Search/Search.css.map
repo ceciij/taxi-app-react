@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AECA,OAAO,CAAC,6LAAI",
+    "sources": [
+        "Search.scss",
+        "../../../../Assets/styles/_mixin.scss",
+        "../../../../Assets/styles/_variables.scss"
+    ],
+    "names": [],
+    "file": "Search.css"
+}

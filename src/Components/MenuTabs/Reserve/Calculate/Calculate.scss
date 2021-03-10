@@ -1,7 +1,7 @@
 @import '../../../../Assets/styles/mixin';
 @import '../../../../Assets/styles/variables';
 
-section{
+.calculate{
     padding: 20px 100px;
     .items{
         @include flex();

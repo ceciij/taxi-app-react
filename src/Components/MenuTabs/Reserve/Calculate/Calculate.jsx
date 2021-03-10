@@ -14,10 +14,11 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
+
 function Calculate(){
     const classes = useStyles();
     return(
-        <section className="reservar">
+        <section className="calculate">
             <h2>¿A dónde vas?</h2>
             <div className="items">
                 <img className="map-image" src= { map } alt="GoogleMaps" />
@@ -43,7 +44,8 @@ function Calculate(){
                             value="Pagar"
                             color="white"
                             backgroundColor="green"
-                            click={()=>{}}
+                            click={()=>{ }}
+                            linkto= "#pay-methods"
                         />
                     </div>
                 </form>

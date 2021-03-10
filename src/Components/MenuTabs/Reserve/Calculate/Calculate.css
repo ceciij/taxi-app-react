@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-section {
+.calculate {
   padding: 20px 100px;
 }
 
-section .items {
+.calculate .items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,15 +15,15 @@ section .items {
           align-items: center;
 }
 
-section .items .map-image {
+.calculate .items .map-image {
   margin-right: 50px;
 }
 
-section .items form {
+.calculate .items form {
   width: 50%;
 }
 
-section .items .form {
+.calculate .items .form {
   padding: 0px 50px;
   display: -webkit-box;
   display: -ms-flexbox;

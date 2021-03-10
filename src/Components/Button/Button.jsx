@@ -23,7 +23,11 @@ function Button(props){
 
     return(
         <div className={classes.root}>
-            <Fab variant="extended" onClick={ handleClick }>
+            <Fab 
+              variant="extended" 
+              onClick={ handleClick }
+              href={ props.linkto }
+              >
                 { props.value }
             </Fab>
         </div>
@@ -34,8 +38,8 @@ Button.propTypes = {
     value: PropTypes.string.isRequired,
     color: PropTypes.string,
     backgroundColor: PropTypes.string,
-    click: PropTypes.func.isRequired
-
+    click: PropTypes.func.isRequired,
+    linkto: PropTypes.string,
   };
 
 export default Button;

@@ -1,0 +1,21 @@
+@import '../../../../Assets/styles/mixin';
+@import '../../../../Assets/styles/variables';
+
+
+
+.confirmation{
+    @include flex();
+
+    .icon{
+        color: $color-green;
+        margin-right: 30px;
+    }
+    .card{
+        width: 200px;
+        height: 300px;
+
+        .confirmation-details{
+            line-height: 2;
+        }
+    }
+}

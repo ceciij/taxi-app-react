@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=Reserve.css.map */
+.page {
+  padding: 0px 200px;
+}
+
+section {
+  padding: 20px;
+  height: 100vh;
+}
+/*# sourceMappingURL=Reserve.css.map */

@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AECA,OAAO,CAAC,6LAAI;AFEZ,AAAA,QAAQ,CAAA;ECWJ,OAAO,EAAE,IAAI;EACb,eAAe,EDXD,YAAY;ECY1B,WAAW,EAAE,MAAM;EDXnB,MAAM,EAAE,KAAK;CAChB",
     "sources": [
-        "PayMethods.scss"
+        "PayMethods.scss",
+        "../../../../Assets/styles/_mixin.scss",
+        "../../../../Assets/styles/_variables.scss"
     ],
     "names": [],
     "file": "PayMethods.css"

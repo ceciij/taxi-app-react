@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AECA,OAAO,CAAC,6LAAI;AFIZ,AAAA,aAAa,CAAA;ECST,OAAO,EAAE,IAAI;EACb,eAAe,EAFD,MAAM;EAGpB,WAAW,EAAE,MAAM;CDItB;;AAfD,AAGI,aAHS,CAGT,KAAK,CAAA;EACD,KAAK,EEEC,OAAO;EFDb,YAAY,EAAE,IAAI;CACrB;;AANL,AAOI,aAPS,CAOT,KAAK,CAAA;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAKhB;;AAdL,AAWQ,aAXK,CAOT,KAAK,CAID,qBAAqB,CAAA;EACjB,WAAW,EAAE,CAAC;CACjB",
+    "sources": [
+        "Confirmation.scss",
+        "../../../../Assets/styles/_mixin.scss",
+        "../../../../Assets/styles/_variables.scss"
+    ],
+    "names": [],
+    "file": "Confirmation.css"
+}

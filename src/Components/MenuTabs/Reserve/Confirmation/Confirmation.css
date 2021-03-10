@@ -1,14 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.methods {
+.confirmation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 200px;
 }
-/*# sourceMappingURL=PayMethods.css.map */
+
+.confirmation .icon {
+  color: #4c974c;
+  margin-right: 30px;
+}
+
+.confirmation .card {
+  width: 200px;
+  height: 300px;
+}
+
+.confirmation .card .confirmation-details {
+  line-height: 2;
+}
+/*# sourceMappingURL=Confirmation.css.map */
