@@ -1,0 +1,13 @@
+@import '../../../Assets/styles/mixin';
+@import '../../../Assets/styles/variables';
+
+
+.page{
+    padding: 50px 200px;
+
+}
+.drivers{
+    @include flex();
+    flex-wrap: wrap;
+    padding: 50px;
+}

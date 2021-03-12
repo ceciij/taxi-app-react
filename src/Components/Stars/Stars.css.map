@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACCA,OAAO,CAAC,6LAAI;ADEZ,AAAA,MAAM,CAAA;EEWF,OAAO,EAAE,IAAI;EACb,eAAe,EAFD,MAAM;EAGpB,WAAW,EAAE,MAAM;EFXnB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAiB;CAC3B",
+    "sources": [
+        "Stars.scss",
+        "../../Assets/styles/_variables.scss",
+        "../../Assets/styles/_mixin.scss"
+    ],
+    "names": [],
+    "file": "Stars.css"
+}

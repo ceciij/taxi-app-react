@@ -26,7 +26,7 @@ function Header() {
                 <div className="menu">
                     <ul className="menu-ul">
                             <Link className="menu-item" to="/Reserve">Inicio</Link>
-                            <Link className="menu-item" to="/Reserve">Tarifas</Link>
+                            <Link className="menu-item" to="/Tariff">Tarifas</Link>
                             <Link className="menu-item" to="/Plans">Planes</Link>
                             <Link className="menu-item" to="/Drivers">Conductores</Link>
                             <Link className="menu-item" to="/MyTrips">Mis viajes</Link>

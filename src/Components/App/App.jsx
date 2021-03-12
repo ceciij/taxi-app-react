@@ -13,6 +13,7 @@ import Reserve from '../MenuTabs/Reserve/Reserve';
 import MyTrips from '../MenuTabs/MyTrips/MyTrips';
 import LostFound from '../MenuTabs/LostFound/LostFound';
 import './App.css'
+import Tariff from '../MenuTabs/Tariff/Tariff';
 
 function App(){
 
@@ -33,6 +34,9 @@ function App(){
                     </Route>
                     <Route path="/Reserve" exact>
                         <Reserve/>
+                    </Route>
+                    <Route path="/Tariff" exact>
+                        <Tariff/>
                     </Route>
                     <Route path="/Plans" exact>
                         <Plans/>

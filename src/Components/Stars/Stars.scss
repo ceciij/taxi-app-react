@@ -1,0 +1,8 @@
+@import '../../Assets/styles/variables';
+@import '../../Assets/styles/mixin';
+
+.stars{
+    @include flex();
+    flex-wrap: wrap;
+    color: rgb(255, 235, 58);
+}
