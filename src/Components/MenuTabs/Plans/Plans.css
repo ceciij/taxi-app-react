@@ -19,11 +19,6 @@
           align-items: center;
 }
 
-.container-afiliacion .img-planes {
-  width: 50%;
-  min-width: 470px;
-}
-
 .container-afiliacion .img-planes img {
   width: 100%;
   -o-object-fit: cover;
@@ -33,11 +28,16 @@
 .container-afiliacion .descripcion-planes {
   width: 50%;
   display: inline-block;
-  padding: 30px;
+  padding: 0px 150px;
 }
 
 .container-afiliacion .descripcion-planes h2 {
   margin-bottom: 20px;
+}
+
+.container-afiliacion .descripcion-planes p {
+  line-height: 2;
+  padding-bottom: 40px;
 }
 
 .container-afiliacion .descripcion-planes input {

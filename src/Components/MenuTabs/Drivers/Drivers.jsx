@@ -39,6 +39,13 @@ const drivers = [
         "name":"Nombre: Mariana Sanchez",
         "placas":"Placas JNA-50-36",
         "stars":5
+    },
+    {
+        "number":"Id: 123456",
+        "image":"image",
+        "name":"Nombre: Mariana Sanchez",
+        "placas":"Placas JNA-50-36",
+        "stars":5
     }
 ]
 

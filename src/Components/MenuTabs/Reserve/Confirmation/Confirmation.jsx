@@ -43,9 +43,9 @@ function Confirmation(){
                     <p className="confirmation-details">Hacia Abetos #500</p>
                     <p className="confirmation-details">17 km - $182.00</p>
                 </CardContent>
-                <CardActions>
-                    <Button size="small">Learn More</Button>
-                </CardActions>
+                {/* <CardActions>
+                    <Button size="small">Volvar al inicio</Button>
+                </CardActions> */}
             </Card>
             
 

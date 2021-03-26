@@ -13,15 +13,24 @@ const useStyles = makeStyles((theme) => ({
       },
     },
   }));
+  
+  const calculateCost = ()=>{
+      let distancia = document.querySelector('.input-distancia');
+      
+      let costo = document.querySelector('.input-costo');
+      distancia.innerHTML= 'Distancia: 17.6 KM'
+      costo.innerHTML= 'Costo: $ 182.00 MXN'
+
+  }
 
 
 function Calculate(){
     const classes = useStyles();
     return(
         <section className="calculate">
-            <h2>¿A dónde vas?</h2>
+            <h2 className="reservar-titulo">¿A dónde vas?</h2>
             <div className="items">
-                <img className="map-image" src= { map } alt="GoogleMaps" />
+                <img className="map-image" src= { map } width="400px" alt="GoogleMaps" />
                 <form className = {classes.root} noValidate autoComplete="off">
                     <div className="form">
                         <TextField
@@ -38,8 +47,14 @@ function Calculate(){
                             variant="outlined"
                             defaultValue= ""
                         />
-                        <TextField id="standard-basic" label="Distancia" />
-                        <TextField id="standard-basic" label="Costo" />
+                        <Button
+                            value="Calcular"
+                            color="white"
+                            backgroundColor="gray"
+                            click={()=>{ calculateCost() }}
+                        />
+                        <TextField className="input-distancia" id="standard-basic" label="Distancia" />
+                        <TextField className="input-costo" id="standard-basic" label="Costo" />
                         <Button
                             value="Pagar"
                             color="white"

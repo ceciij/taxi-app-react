@@ -3,6 +3,10 @@
   padding: 20px 100px;
 }
 
+.calculate .reservar-titulo {
+  padding-bottom: 25px;
+}
+
 .calculate .items {
   display: -webkit-box;
   display: -ms-flexbox;

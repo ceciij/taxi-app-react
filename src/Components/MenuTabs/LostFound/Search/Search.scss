@@ -1,2 +1,12 @@
 @import '../../../../Assets/styles/mixin';
 @import '../../../../Assets/styles/variables';
+
+
+.seccion-buscar{
+    .buscar-btn{
+        padding: 20px 0px;
+    }
+    .search-titulo{
+        padding-bottom: 20px;
+    }
+}

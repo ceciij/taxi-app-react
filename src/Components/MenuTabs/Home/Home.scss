@@ -1,12 +1,25 @@
+@import '../../../Assets/styles/mixin';
+@import '../../../Assets/styles/variables';
+
 .App {
     text-align: center;
+    .Steps{
+        background-color: $lighter-gray;
+    }
+    .Reviews{
+        background-color: $lighter-gray;
+        padding: 50px 250px;
+        .reviews-items{
+            padding-top: 30px;
+        }
+    }
+    .Us{
+        height: 200px;
+    }
 }
 
-.Container {
-padding: 30px 0px; 
+.cont {
+    padding: 30px 130px; 
 }
 
-.section{
-    height: 200px;
-}
-  
+

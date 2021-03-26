@@ -6,22 +6,24 @@ import Button from '../../../Button/Button';
 
 function Search() {
     return(
-        <>
-            <h2>Ingresa tu número de viaje</h2>
+        <div className="seccion-buscar">
+            <h2 className="search-titulo">Ingresa tu número de viaje</h2>
             <TextField 
                 id="outlined-search" 
                 label="Número de viaje" 
                 type="search" 
                 variant="outlined" 
             />
-            <Button
-                value="Buscar"
-                color="white"
-                backgroundColor="green"
-                click={()=>{ }}
-                linkto= "#lost-object"
-            />
-        </>
+            <div className="buscar-btn">
+                <Button
+                    value="Buscar"
+                    color="white"
+                    backgroundColor="green"
+                    click={()=>{ }}
+                    linkto= "#lost-object"
+                />
+            </div>
+        </div>
     )
 }
 

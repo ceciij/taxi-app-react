@@ -3,6 +3,9 @@
 
 .calculate{
     padding: 20px 100px;
+    .reservar-titulo{
+        padding-bottom: 25px; 
+    }
     .items{
         @include flex();
         .map-image{

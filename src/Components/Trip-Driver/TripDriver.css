@@ -25,4 +25,8 @@
 .trip-driver-item .information {
   margin: 0px 10px;
 }
+
+.trip-driver-item .information .driver-number {
+  font-weight: bold;
+}
 /*# sourceMappingURL=TripDriver.css.map */

@@ -8,7 +8,7 @@ import Button from '../../../Button/Button';
 function LostObject() {
     return(
         <section className="lost-object" id="lost-object" >
-            <h4>¿Qué objeto olvidaste?</h4>
+            <h3>¿Qué objeto olvidaste?</h3>
             <br/>
             <TextField
                 id="outlined-multiline-static"

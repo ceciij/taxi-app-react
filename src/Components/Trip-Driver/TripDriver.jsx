@@ -11,7 +11,7 @@ function TripDriver( props ){
         <div className="trip-driver-item">
             <img src= { props.image ==='trip' ? circle: driver } alt="Viaje"/>
             <div className="information">
-                <div className="number">{ props.number }</div>
+                <div className="driver-number">{ props.number }</div>
                 <div className="information">
                     <div className="field1">{ props.field1 }</div>
                     <div className="field2">{ props.field2 }</div>
